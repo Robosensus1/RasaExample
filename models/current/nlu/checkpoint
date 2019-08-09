@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Chaitu\\Rasa\\Docker\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Chaitu\\Rasa\\Docker\\models\\current\\nlu\\intent_classifier_tensorflow_embedding.ckpt"

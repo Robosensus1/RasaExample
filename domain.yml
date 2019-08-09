@@ -1,0 +1,204 @@
+%YAML 1.1
+---
+actions:
+- action_access_management
+- action_app_Provider_organization
+- action_app_sponsor_organization
+- action_app_app_id
+- action_app_assessment_date
+- action_app_end_date
+- action_app_impacted_regions
+- action_app_owner
+- action_app_owner_status
+- action_app_product_group
+- action_app_products
+- action_app_provider
+- action_app_release_date
+- action_app_sponsor
+- action_both_costs
+- action_criticality
+- action_deploy
+- action_infra_cost
+- action_no_of_apps
+- action_no_of_dbs
+- action_owmer_signoff_date
+- action_peoples_cost
+- action_provider_signoff_date
+- action_releases
+- action_sponsor_signoff_date
+- action_technologies
+- action_version
+- action_year_of_assessment
+- action_app_no_of_servers
+- action_app_server_name
+- action_end_of_version
+- action_product_cost
+- action_release_type
+- action_app_employee_id
+- action_app_employee_first_name
+- action_app_employee_last_name
+- action_app_employee_place_name
+- action_app_employee_email
+- action_app_employee_country
+- action_app_employee_city
+- action_app_employee_state
+- action_app_employee_region
+- action_Jan_peoples_cost
+- action_feb_peoples_cost
+- action_Mar_peoples_cost
+- action_april_peoples_cost
+- action_May_peoples_cost
+- action_June_peoples_cost
+- action_July_peoples_cost
+- action_august_peoples_cost
+- action_sep_peoples_cost
+- action_oct_peoples_cost
+- action_nov_peoples_cost
+- action_dec_peoples_cost
+- action_jan_infra_cost
+- action_feb_infra_cost
+- action_Mar_infra_cost
+- action_april_infra_cost
+- action_May_infra_cost
+- action_June_infra_cost
+- action_July_infra_cost
+- action_august_infra_cost
+- action_sep_infra_cost
+- action_oct_infra_cost
+- action_nov_infra_cost
+- action_dec_infra_cost
+- action_app_volumes
+- action_reminder_schedule
+- action_app_APAC_regulatory
+- action_app_Basel1_regulatory
+- action_app_basel2_regulatory
+- action_app_basel3_regulatory
+- action_app_Business_criticality
+- action_app_aseessment_status
+- action_app_provider_signoff
+- action_app_sponsor_signoff
+- utter_confirm
+- utter_goodbye
+- utter_greet
+- utter_sub_department
+- utter_default
+entities:
+- app
+- app1
+- app2
+- technology
+- product
+- version
+- month
+- release date
+intents:
+- app_assessment_date
+- app-app_id
+- sponsor_signoff_date
+- app_owner_status
+- provider_signoff_date
+- year_of_assessment
+- owmer_signoff_date
+- app-impacted_regions
+- both costs
+- app-Provider_organization
+- app-product_group
+- app-provider
+- app-end_date
+- app-sponsor
+- app-owner
+- app-release_date
+- cost-app
+- app-products
+- app-Sponsor_organization
+- cost-2app
+- Releases
+- deploy
+- infra cost
+- version of technology
+- technologies_used_in_app
+- no_of_dbs
+- criticality_of_app
+- people's cost
+- access management for app
+- no_of_applications
+- sub_department
+- app-no_of_servers
+- app-server_name
+- end of version
+- product cost
+- release type
+- app-employee id
+- app-employee first name
+- app-employee last name
+- app-employee place name
+- app-employee email
+- app-employee country
+- app-employee city
+- app-employee state
+- app-employee region
+- app jan peoples cost
+- app feb peoples cost
+- app march peoples cost
+- app april peoples cost
+- app may peoples cost
+- app june peoples cost
+- app july peoples cost
+- app august peoples cost
+- app september peoples cost
+- app october peoples cost
+- app november peoples cost
+- app december peoples cost
+- app jan infra cost
+- app feb infra cost
+- app march infra cost
+- app april infra cost
+- app may infra cost
+- app june infra cost
+- app july infra cost
+- app august infra cost
+- app september infra cost
+- app october infra cost
+- app november infra cost
+- app december infra cost
+- app volumes
+- reminder schedule
+- app-Basel 3 regulatory
+- app-Basel 1 regulatory
+- app-APAC regulatory
+- app-Basel 2 regulatory
+- app-sponsor signoff
+- app-provider signoff
+- app-Business criticality
+- app-aseessment status
+- greet
+- goodbye
+- affirm
+- deny
+slots:
+  app:
+    type: text
+  app1:
+    type: text
+  app2:
+    type: text
+  product:
+    type: text
+  version:
+    type: text
+  release date:
+    type: text
+  month:
+     type: text
+templates:
+  utter_confirm:
+  - text:  Do you need Infra cost or people's cost?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How can I help you?
+  utter_sub_department:
+  - text: "Do you need for specific department . List of sub department"
+  
+  utter_default:
+    - text: "Sorry i didn't understand, can you be more specific"   

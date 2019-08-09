@@ -1,0 +1,25 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_thanks
+- utter_goodbye
+- action_image
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots: {}
+templates:
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - image: C:/Downloads/indian-flag.jpg
+    text: Hi
+  utter_thanks:
+  - text: Thanks for contacting us. Have a good day!

@@ -1,0 +1,135 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "action_bye": {
+      "slots": []
+    },
+    "utter_Company_Help": {
+      "slots": []
+    },
+    "utter_Chatbot": {
+      "slots": []
+    },
+    "utter_Choosing": {
+      "slots": []
+    },
+    "utter_Bot": {
+      "slots": []
+    },
+    "utter_Value_Additions": {
+      "slots": []
+    },
+    "utter_Blockchain": {
+      "slots": []
+    },
+    "utter_Research_And_Development": {
+      "slots": []
+    },
+    "utter_Building_Chatbot": {
+      "slots": []
+    },
+    "utter_Skills_For_Job": {
+      "slots": []
+    },
+    "utter_Game_Changing": {
+      "slots": []
+    },
+    "action_ai_to_company": {
+      "slots": []
+    },
+    "utter_Welcome": {
+      "slots": []
+    },
+    "utter_Machine_Learning": {
+      "slots": []
+    },
+    "action_chatbot_uses": {
+      "slots": []
+    },
+    "utter_Sorry": {
+      "slots": []
+    },
+    "utter_Careers": {
+      "slots": []
+    },
+    "utter_Deny": {
+      "slots": []
+    },
+    "utter_Contact": {
+      "slots": []
+    },
+    "utter_Company_Details": {
+      "slots": []
+    },
+    "action_location": {
+      "slots": []
+    },
+    "action_ai_benefits": {
+      "slots": []
+    },
+    "utter_Aims": {
+      "slots": []
+    },
+    "utter_None": {
+      "slots": []
+    },
+    "action_services": {
+      "slots": []
+    },
+    "utter_Strengths": {
+      "slots": []
+    },
+    "utter_Bot_Age": {
+      "slots": []
+    },
+    "utter_Solutions": {
+      "slots": []
+    },
+    "utter_Profits": {
+      "slots": []
+    },
+    "utter_Outsourcing": {
+      "slots": []
+    },
+    "utter_Help": {
+      "slots": []
+    },
+    "utter_AI": {
+      "slots": []
+    },
+    "utter_Ok": {
+      "slots": []
+    },
+    "action_end": {
+      "slots": []
+    },
+    "utter_Bot_Details": {
+      "slots": []
+    },
+    "action_meetings": {
+      "slots": []
+    },
+    "utter_Affirmation": {
+      "slots": []
+    },
+    "utter_Employees": {
+      "slots": []
+    }
+  },
+  "python": "3.6.4",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190607-172933",
+  "rasa_core": "0.14.0",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}
